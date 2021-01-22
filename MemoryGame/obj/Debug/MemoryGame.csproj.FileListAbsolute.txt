@@ -1,0 +1,9 @@
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\obj\Debug\MemoryGame.Form1.resources
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\obj\Debug\MemoryGame.Properties.Resources.resources
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.GenerateResource.cache
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+F:\Study\repository\programowanie-obiektowe\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
