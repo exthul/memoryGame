@@ -12,14 +12,17 @@ namespace MemoryGame
 {
     public partial class Form1 : Form
     {
+        
         Random random = new Random();
 
+        // lista icons
         List<string> icons = new List<string>()
         {
             "!", "!", "N", "N", ",", ",", "k", "k",
             "b", "b", "v", "v", "w", "w", "z", "z"
         };
 
+        // labels imgs
         Label firstClicked, secondClicked;
 
 
@@ -31,9 +34,12 @@ namespace MemoryGame
 
         private void AssignIconsToSquares()
         {
+            // local variable
             Label label;
+            // random index
             int randomNumber;
 
+            // we know the inside in our tableLayout we have labels
             for (int i = 0; i < tableLayoutPanel1.Controls.Count; i++)
             {
                 if (tableLayoutPanel1.Controls[i] is Label)
@@ -41,18 +47,13 @@ namespace MemoryGame
                 else
                     continue;
 
-                //set the random icon
+                //set the random icon list
                 randomNumber = random.Next(0, icons.Count);
                 label.Text = icons[randomNumber];
 
                 //removed the random number from the icons list
                 icons.RemoveAt(randomNumber);
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void label_Click(object sender, EventArgs e)
@@ -65,6 +66,7 @@ namespace MemoryGame
             if (clickedLabel == null)
                 return;
 
+            // when click the icons change color
             if (clickedLabel.ForeColor == Color.Black)
                 return;
 
@@ -119,9 +121,5 @@ namespace MemoryGame
 
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
